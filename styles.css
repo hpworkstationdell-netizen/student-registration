@@ -1,0 +1,209 @@
+/* External CSS */
+
+body {
+    background-color: #eef4fa;
+    font-family: Arial, sans-serif;
+    margin: 25px;
+    color: #333333;
+}
+
+.profile {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Circular profile image */
+.profile img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid darkblue;
+}
+
+/* Registration rules */
+.rules {
+    border: 2px solid darkblue;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+/* Section heading */
+.section-heading {
+    text-align: center;
+    color: darkblue;
+}
+
+/* Registration button */
+.center {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: royalblue;
+}
+
+/* Programs table */
+.program-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.program-table th,
+.program-table td {
+    border: 1px solid #777777;
+    padding: 12px;
+    text-align: left;
+}
+
+.program-table th {
+    background-color: darkblue;
+    color: white;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.banner {
+    position: relative;
+    background-image: linear-gradient(
+        rgba(0, 0, 80, 0.5),
+        rgba(0, 0, 80, 0.5)
+    ), url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    color: white;
+    font-size: 32px;
+}
+
+
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: yellow;
+    color: darkblue;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.program-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.program-table {
+    width: 100%;
+    max-width: 600px;
+}
+.form-card {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group > label:not(.option-label),
+.field-label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="number"],
+.form-group input[type="date"],
+.form-group select,
+.form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.option-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 12px 5px 0;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: 2px solid royalblue;
+    border-color: royalblue;
+}
+.navbar {
+    background-color: darkblue;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+.success-card {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 35px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid darkblue;
+    border-radius: 12px;
+}
+
+.success-card h1 {
+    color: darkblue;
+}
+
+.success-card p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}

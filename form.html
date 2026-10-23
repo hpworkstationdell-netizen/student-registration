@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration Form</title>
+
+    <!-- Task 3: External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <p>
+        <a href="index.html">Home</a> |
+        <a href="Form.html">Register</a> |
+        <a href="thanks.html">Thank You</a>
+    </p>
+
+    <h1>NUTECH Registration Form</h1>
+
+    <!-- Task 8: Styled registration form -->
+    <div class="form-card">
+
+        <form action="thanks.html" method="get">
+
+            <div class="form-group">
+                <label for="fn">Full Name:</label>
+                <input type="text" id="fn" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="regno">Registration No:</label>
+                <input type="text" id="regno"
+                       name="registration_number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone No:</label>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="03XXXXXXXXX">
+            </div>
+
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age"
+                       min="16" max="40">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+
+            <div class="form-group">
+                <span class="field-label">Gender:</span>
+
+                <label class="option-label">
+                    <input type="radio" name="gender" value="Male">
+                    Male
+                </label>
+
+                <label class="option-label">
+                    <input type="radio" name="gender" value="Female">
+                    Female
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label for="department">Department:</label>
+                <select id="department" name="department">
+                    <option value="">Select Department</option>
+                    <option value="AI">AI</option>
+                    <option value="CS">CS</option>
+                    <option value="SE">SE</option>
+                    <option value="EE">EE</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <span class="field-label">Interests:</span>
+
+                <label class="option-label">
+                    <input type="checkbox" name="interest" value="Web">
+                    Web
+                </label>
+
+                <label class="option-label">
+                    <input type="checkbox" name="interest" value="AI">
+                    AI
+                </label>
+
+                <label class="option-label">
+                    <input type="checkbox" name="interest" value="Games">
+                    Games
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address"
+                          rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="btn">Register</button>
+            <button type="reset" class="btn">Clear</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
